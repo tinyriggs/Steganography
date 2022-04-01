@@ -35,12 +35,13 @@ def get_image(image_path):
     pixel_values = numpy.array(pixel_values).reshape((width, height, channels))
     return pixel_values
 
+# numpy.binary_repr(int) returns the int as binary
+# int("binary", 2) returns binary as int
+
 
 image = get_image("picture.png")
 
-for i in image:
-    print(i)
-# print(image.shape)
+
 
 
 
