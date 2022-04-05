@@ -35,7 +35,7 @@ def get_image_array(image_path : string):
 pixel_data = get_image_array("picture.png")
 
 
-test_string = "123456789"
+test_string = "Test Fuck Oink Moo#"
 
 test_binary = message_to_binary(test_string)
 
